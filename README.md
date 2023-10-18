@@ -1,16 +1,209 @@
-<DOCTYPE html>
+<!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-  </head>
-  <body>
+    <head>
+        <title>Homepage</title>
+        <meta charset="UTF-8">
+    </head>
     <style>
-      body {
-        background-color: blue;
-      }
-    </style>
-    <h1>Welcome to my restaurant</h1>
-    <img src="pasta.jpg">
+        .main {
+        width: 80%;
+        background-color: rgba(11, 230, 47, 0.4);
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 6px;
+        }
+        body {
+     
+   background-color: black;
+            background-image: url(food.jpg);
+        }
+
+  .start {
+            text-align: center;
+            font-size: 20px;
+            font-style: italic;
+            color: white;
+            border-bottom: 2px solid rgba(3, 100, 19, 0.733);
+        }
+        h2 {
+            text-align: center;
+        }
+        .menu {
+            display: inline-block;
+            margin-top: 50px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 30px;
+            color: black;
+            border: 2px solid wheat;
+            border-radius: 6px;
+            padding: 10px 40px 10px 40px;
+            background-color: greenyellow;
+        }
+        .about{
+            display: inline-block;
+            margin-top: 25px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 30px;
+            color: black;
+            border: 2px solid wheat;
+            border-radius: 6px;
+            padding: 10px 40px 10px 40px;
+            background-color: greenyellow;  
+        }
+        .prices {
+            display: inline-block;
+            margin-top: 25px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 30px;
+            color: black;
+            border: 2px solid wheat;
+            border-radius: 6px;
+            padding: 10px 40px 10px 40px;
+            background-color: greenyellow;  
+        }
+        .contact {
+            display: inline-block;
+            margin-top: 25px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 30px;
+            color: black;
+            border: 2px solid wheat;
+            border-radius: 6px;
+            padding: 10px 40px 10px 40px;
+            background-color: greenyellow;  
+        }
+
+.book {
+            display: inline-block;
+            text-align: right;
+            color: red;
+            font-size: 25px;
+            background-color: yellow;
+            
+  }
+   .a{ 
+            color: brown;
+        }
+        a:hover {
+            color: green;
+        }
+        footer {
+            background-color: black;
+            color: white;
+            width: 100%;
+        }
+        .p1 {
+            text-align: right;
+            padding-bottom: 50px;
+        }
+
     
+  ul {
+            margin-top: -8px;
+            list-style-type: none;
+            background-color: limegreen;
+            font-size: 35px;
+            text-align: center;
+        }
+        li {
+            display: inline;
+            padding: 50px 50px 50px 50px;
+        }
+        li a {
+            color: black;
+            text-decoration: none;
+
+   }
+        li a:hover {
+            background-color: green;
+            color: grey;
+        }
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 90%;
+        }
+        .text {
+            color: white;
+            text-align: center;
+            font-style: italic;
+            font-size: 30px;
+            
+  }
+        .logo {
+            position: relative;
+            display: inline;
+            height: 15%;
+            width: 15%;
+            margin-bottom: -12px;
+  }
+
+  </style>
+    <body>
+
+
+          
+        
+   <div class="container">
+            <ul>
+                <li><a href="#home"> Home</a></li>
+                <li><a href="file:///C:/Users/MINEDUCYT/Desktop/programar/personal_website/menu.html">Price</a></li>
+                <li><a href="file:///C:/Users/MINEDUCYT/Desktop/programar/personal_website/About_us.html">About</a></li>
+                <li><a href="file:///C:/Users/MINEDUCYT/Desktop/programar/personal_website/contact.html">Contact</a></li>
+                <li><a href="#news">News</a></li> 
+            </ul>
+        </div>
+        
+  <div class="main">
+        <div class="start">
+            <img class="logo" src="logo.png">
+            <h1 style="margin-top: -8px;">GoEatings</h1> 
+            <p>"Disfruta de tu comida como nunca antes"</p>
+        </div>
+        <div class="text">
+            <h4 style="margin-bottom: -12px;">Encontraste el mejor restaurante con comida natural y saludable.</h4>
+            <p>Siéntete como en casa come, disfruta y diviértete</p>
+        </div>
+
+        
+  <h2><a class="menu" href="file:///C:/Users/MINEDUCYT/Desktop/programar/personal_website/menus.html">Menú</a></h2>
+        <h2><a class="prices" href="file:///C:/Users/MINEDUCYT/Desktop/programar/personal_website/menu.html">Precios</a></h2>
+        <h2><a class="about" href="file:///C:/Users/MINEDUCYT/Desktop/programar/personal_website/About_us.html">Sobre nosotros</a></h2>
+        <h2><a class="contact" href="file:///C:/Users/MINEDUCYT/Desktop/programar/personal_website/contact.html">Contacto y ubicación</a></h2>
+
+  <p class="book"><a class="a" href="file:///C:/Users/MINEDUCYT/Desktop/programar/personal_website/menu.html">Compra ahora</a></p>
+    </div>
+
+  <div style="width: 500px; height: 400px; position: absolute; top: 0; left: 0;">
+        <button onclick="reproducirAudio()" style="width: 20%; height: 15%; opacity: 0.5; margin-top: 50px; border-radius: 6px;">Reproducir</button>
+    </div>
+
+  <audio id="miAudio" style="display: none;">
+        <source src="nothingatall.mp3" type="audio/mp3">
+    </audio>
+
+  <script>
+        const audio = document.getElementById('miAudio');
+
+        function reproducirAudio() {
+            audio.play();
+        }
+    </script>
   </body>
+
+
+
+  <footer>
+        <h1>Información adicional</h1>
+        <p>©Josuearevalo</p>
+        <p>Chiltiupán, La libertad, SV</p> <p class="p1"></p>
+        
+  </footer>
+
+ 
 </html>
