@@ -152,7 +152,7 @@
    <div class="container">
             <ul>
                 <li><a href="#home"> Home</a></li>
-                <li><a href="file:///C:/Users/MINEDUCYT/Desktop/programar/personal_website/menu.html">Price</a></li>
+                <li><a href="https://github.com/josuehernandez10/josuehernandez10.github.io/menus.html">Price</a></li>
                 <li><a href="file:///C:/Users/MINEDUCYT/Desktop/programar/personal_website/About_us.html">About</a></li>
                 <li><a href="file:///C:/Users/MINEDUCYT/Desktop/programar/personal_website/contact.html">Contact</a></li>
                 <li><a href="#news">News</a></li> 
