@@ -172,7 +172,7 @@
 
         
   <h2><a class="menu" href="file:///C:/Users/MINEDUCYT/Desktop/programar/personal_website/menus.html">Menú</a></h2>
-        <h2><a class="prices" href="file:///C:/Users/MINEDUCYT/Desktop/programar/personal_website/menu.html">Precios</a></h2>
+        <h2><a class="prices" href="https://github.com/josuehernandez10/josuehernandez10.github.io/blob/main/menu.html">Precios</a></h2>
         <h2><a class="about" href="file:///C:/Users/MINEDUCYT/Desktop/programar/personal_website/About_us.html">Sobre nosotros</a></h2>
         <h2><a class="contact" href="file:///C:/Users/MINEDUCYT/Desktop/programar/personal_website/contact.html">Contacto y ubicación</a></h2>
 
