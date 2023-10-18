@@ -5,5 +5,6 @@
   </head>
   <body>
     <h1>Welcome to my restaurant</h1>
+    <img src="pasta.jpg">
   </body>
 </html>
